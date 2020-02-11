@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    margin: 0px auto;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -100px;
+    color: green;
+}
+  h2 {
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    top: 100%;
+    margin-top: -50px;
+  }
+
+  #start {
+      position: relative;
+  }
+
+  #high-scores {
+      float: left;
+      padding: 25px;
+  }
+
+  #time {
+      float: right;
+      padding: 25px;
+  }
