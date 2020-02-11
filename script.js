@@ -63,11 +63,11 @@ for(i = 0; i < simsQuestions.length; i++) {
         score++;
         countdown++;
         alert("CORRECT ANSWER");
-    } else {
-        score--;
+    }   else {
+         score--;
         countdown--;
         alert("INCORRECT ANSWER");
-    }
+     }
 
     }
 
