@@ -1,31 +1,83 @@
-h1 {
-    text-align: center;
-    margin: 0px auto;
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-    top: 50%;
-    margin-top: -100px;
-    color: green;
+*, *::before, *::after {
+box-sizing: border-box;
 }
-  h2 {
-    position: relative;
-    left: 50%;
-    margin-left: -50px;
-    top: 100%;
-    margin-top: -50px;
-  }
 
-  #start {
-      position: relative;
-  }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    max-width: 85%;
+    padding: 45px;
+    background-color: #98FB98;
+    border-radius: 10px;
+}
+
+.btn-grid {
+    display: grid;
+    gap: 25px;
+    margin: 20px 0;
+}
+
+.btn {
+background-color: black;
+color: white;
+padding: 10px;
+}
+
+.btn:hover {
+    border-color: green;
+    border-radius: 5px;
+}
+
+.start-btn, .next-btn {
+    background-color: #8A2BE2;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.start-btn:hover, .next-btn:hover {
+    background-color: #6A5ACD;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: darkgreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
 
   #high-scores {
       float: left;
       padding: 25px;
   }
+  
 
   #time {
       float: right;

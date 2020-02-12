@@ -13,13 +13,27 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">Welcome to The Sims Quiz!</h1>
-              <p class="lead">TSul sul! You will have have 90 seconds to to answer five hard-hitting questions pertaining to The Sims series! Good luck! </p>
+              <p class="lead">Sul sul! You will have have 90 seconds to to answer five hard-hitting questions pertaining to The Sims series! Good luck! </p>
+              <div class="controls">
+                <button type="button" id="start" class="start-btn btn">Begin Quiz</button>
+                <button type="button" id="next" class="next-btn btn hide">Next Question</button>
+              </div>
+              <div class="container">
+                <div id="question-container">
+                  <h2 id="question" class="hide">Question</h2>
+                  <div id="answer-buttons" class="btn-grid">
+                    <button class="btn hide">Choice 1</button>
+                    <button class="btn hide">Choice 2</button>
+                    <button class="btn hide">Choice 3</button>
+                    <button class="btn hide">Choice 4</button>
+                  </div>
+                </div>
             </div>
           </div>
-    <button type="button" id="start" class="btn btn-primary">Begin Quiz</button>
     <div id="time">Time: 60</div>
-    <div id="high-scores">Highscores</div>    
+    <div id="high-scores">Highscores</div>  
 </main>
-    <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="script.js">
+  </script> 
 </body>
 </html>
